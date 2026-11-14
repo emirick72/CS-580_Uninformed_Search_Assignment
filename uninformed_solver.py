@@ -36,7 +36,7 @@ def breadth_first_search(initial_state, max_frontier_size=2000000, max_ram_gb=4.
 
     while frontier:
         if explored_nodes_count % 5000 == 0:
-            check_memory_limit(max_gb=max_rab_gb)
+            check_memory_limit(max_gb=max_ram_gb)
 
         if len(frontier) > max_frontier_size:
             raise MemoryError(f"BFS frontier limit reached. Limit is {max_frontier_size} states.")
