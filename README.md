@@ -10,7 +10,7 @@ Some code (such as in `puzzle.py`) is reused from my "Informed Search" assignmen
 
 --------------------------------
 ## How to execute:
-* Clone this repo from GitHub using `git clone https://github.com/emirick72/CS-580_Uniformed_Search_Assignment.git`
-* `cd` into the repo on your machine (`cd CS-580_Uniformed_Search_Assignment`)
+* Clone this repo from GitHub using `git clone https://github.com/emirick72/CS-580_Uninformed_Search_Assignment.git`
+* `cd` into the repo on your machine (`cd CS-580_Uninformed_Search_Assignment`)
 * Command to run the program: `python main.py`
 * Command to generate the results into `results.txt`: `python generate_uninformed_results.py`
