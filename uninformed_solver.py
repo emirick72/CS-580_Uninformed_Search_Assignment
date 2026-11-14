@@ -56,9 +56,9 @@ def breadth_first_search(initial_state, max_frontier_size=2000000, max_rab_gb=4.
             return {
                 "success": True,
                 "path": path,
-                "cost": current_state,
+                "cost": current_state.cost,
                 "explored_nodes_count": explored_nodes_count,
-                "max_frontier": max_frontier_reached,
+                "max_stack_frontier": max_frontier_reached,
                 "time_elapsed": end_time - start_time
             }
         explored_nodes_count += 1
@@ -71,7 +71,7 @@ def breadth_first_search(initial_state, max_frontier_size=2000000, max_rab_gb=4.
     return {
         "success": False,
         "explored_nodes_count": explored_nodes_count,
-        "max_frontier": max_frontier_reached,
+        "max_stack_frontier": max_frontier_reached,
         "time_elapsed": time.time() - start_time
     }
 
