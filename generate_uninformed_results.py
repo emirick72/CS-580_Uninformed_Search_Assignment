@@ -32,7 +32,7 @@ def run_benchmark(file_handle, title, board, size, max_ram_gb=4.0):
         bfs_result = breadth_first_search(initial_state, max_ram_gb=max_ram_gb)
         if bfs_result["success"]:
             file_handle.write("Status: SUCCESS\n")
-            file_handle.write(f"Time Elapsed:       {bfs_result['time_elapsed']:.6f} seconds")
+            file_handle.write(f"Time Elapsed:       {bfs_result['time_elapsed']:.6f} seconds\n")
             file_handle.write(f"Solution Length:    {bfs_result['cost']} moves\n")
             file_handle.write(f"States Explored:    {bfs_result['explored_nodes_count']}\n")
             file_handle.write(f"Peak Frontier:      {bfs_result['max_stack_frontier']}\n")
