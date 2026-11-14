@@ -23,7 +23,7 @@ def check_memory_limit(max_gb=4.0):
             f"(Limit: {max_gb} GB). Stopping program to prevent system from crashing."
         )
 
-def breadth_first_search(initial_state, max_frontier_size=2000000, max_rab_gb=4.0):
+def breadth_first_search(initial_state, max_frontier_size=2000000, max_ram_gb=4.0):
     """
     Breadth-first Search (BFS) algorithm implementation.
     Searches all nodes level by level (wide before deep)
@@ -75,7 +75,7 @@ def breadth_first_search(initial_state, max_frontier_size=2000000, max_rab_gb=4.
         "time_elapsed": time.time() - start_time
     }
 
-def depth_first_search(initial_state, max_stack_size=1000000, max_ram_gb=4.0, max_depth=50):
+def depth_first_search(initial_state, max_stack_size=2000000, max_ram_gb=4.0, max_depth=50):
     """
     Depth-first Search (DFS) algorithm implementation.
     Searches all nodes going deep down one path first (deep before wide/deep before level-by-level)
