@@ -52,7 +52,7 @@ def run_benchmark(file_handle, title, board, size, max_ram_gb=4.0):
         dfs_result = depth_first_search(initial_state, max_ram_gb=max_ram_gb, max_depth=35)
         if dfs_result["success"]:
             file_handle.write("Status: SUCCESS\n")
-            file_handle.write(f"Time Elapsed:       {dfs_result['time_elapsed']:.6f} seconds")
+            file_handle.write(f"Time Elapsed:       {dfs_result['time_elapsed']:.6f} seconds\n")
             file_handle.write(f"Solution Length:    {dfs_result['cost']} moves\n")
             file_handle.write(f"States Explored:    {dfs_result['explored_nodes_count']}\n")
             file_handle.write(f"Peak Frontier:      {dfs_result['max_stack_frontier']}\n")
