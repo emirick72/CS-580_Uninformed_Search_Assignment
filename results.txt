@@ -10,7 +10,7 @@ Initial Board:
 
 --- BREADTH-FIRST SEARCH ---
 Status: SUCCESS
-Time Elapsed:       0.021827 seconds
+Time Elapsed:       0.026702 seconds
 Solution Length:    14 moves
 States Explored:    6026
 Peak Frontier:      3076
@@ -18,7 +18,8 @@ Solution Path:      RIGHT -> DOWN -> LEFT -> LEFT -> UP -> RIGHT -> DOWN -> RIGH
 
 --- DEPTH-FIRST SEARCH ---
 Status: SUCCESS
-Time Elapsed:       2.032991 secondsSolution Length:    34 moves
+Time Elapsed:       2.089711 seconds
+Solution Length:    34 moves
 States Explored:    362191
 Peak Frontier:      32
 Solution Path:      UP -> LEFT -> DOWN -> DOWN -> RIGHT -> UP -> UP -> LEFT -> DOWN -> DOWN -> RIGHT -> UP -> LEFT -> DOWN -> RIGHT -> UP -> RIGHT -> UP -> LEFT -> LEFT -> DOWN -> DOWN -> RIGHT -> UP -> UP -> RIGHT -> DOWN -> LEFT -> UP -> LEFT -> DOWN -> RIGHT -> DOWN -> RIGHT
@@ -33,7 +34,7 @@ Initial Board:
 
 --- BREADTH-FIRST SEARCH ---
 Status: SUCCESS
-Time Elapsed:       0.000406 seconds
+Time Elapsed:       0.000268 seconds
 Solution Length:    4 moves
 States Explored:    28
 Peak Frontier:      18
@@ -41,7 +42,8 @@ Solution Path:      LEFT -> DOWN -> RIGHT -> DOWN
 
 --- DEPTH-FIRST SEARCH ---
 Status: SUCCESS
-Time Elapsed:       2.024981 secondsSolution Length:    34 moves
+Time Elapsed:       1.994587 seconds
+Solution Length:    34 moves
 States Explored:    485317
 Peak Frontier:      30
 Solution Path:      DOWN -> DOWN -> LEFT -> UP -> UP -> LEFT -> DOWN -> DOWN -> RIGHT -> UP -> UP -> RIGHT -> DOWN -> LEFT -> DOWN -> LEFT -> UP -> UP -> RIGHT -> DOWN -> RIGHT -> UP -> LEFT -> DOWN -> DOWN -> LEFT -> UP -> UP -> RIGHT -> DOWN -> LEFT -> DOWN -> RIGHT -> RIGHT
@@ -58,7 +60,7 @@ Initial Board:
 
 --- BREADTH-FIRST SEARCH ---
 Status: SUCCESS
-Time Elapsed:       0.000503 seconds
+Time Elapsed:       0.000442 seconds
 Solution Length:    4 moves
 States Explored:    82
 Peak Frontier:      107
